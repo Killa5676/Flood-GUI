@@ -1,4 +1,5 @@
 print("Diffrent player v2")
+print("ok")
 if Legit == nil then
     Legit = false
 end
