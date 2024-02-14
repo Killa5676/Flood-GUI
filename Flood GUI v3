@@ -80,13 +80,6 @@ LocalPlayer.Idled:connect(function()
 	bb:ClickButton2(Vector2.new())
 end)
 
-for i,v in ipairs(getnilinstances()) do
-	if v.Name == "CL_AntiExploit" then
-		print('Anti-Cheat Deleted.')
-		v:Destroy()
-	end
-end
-
 getgenv().oof = false
 local votemap = LocalPlayer.PlayerGui.GameGui.VoteMap
 local key = -game:GetService("ReplicatedStorage").Remote.ReqPasskey:InvokeServer()
