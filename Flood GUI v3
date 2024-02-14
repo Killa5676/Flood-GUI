@@ -1,3 +1,4 @@
+print("ok")
 local Branch = (...);
 if type(Branch) ~= "string" then
 	Branch = "main";
